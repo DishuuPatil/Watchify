@@ -20,5 +20,5 @@ export default function NavbarItem({title , param})
     </div>
   )
 }
-//for dynnamic stylinc we need to add `(backtick) while defining class names
+//for dynamic styling we need to add `(backtick) while defining class names
 //and inside the dynamic section we added dollar sign and curly braces and added the conditions like if genre=== param(topTrending / topRated)
