@@ -15,7 +15,8 @@ export default function Error({error, reset}) {
         <h1>Something went wrong</h1>
         {/*if some error occurs while fetching data it will print this message */}
         <button className="hover:bg-amber-500 hover:text-white font-bold py-2 px-2 rounded-lg mr-1" onClick={()=>reset()}>Try Again</button>
-        {/*when user click on Try Again button reset function will be called and it will try again to fetch the data */}
+        {/*when user click on Try Again button reset function will be called and it will try again to fetch the data 
+        When we use "useEffect" and "onclick" we need to make the page as client side by declaring "use client" at top of it*/}
     </div>
   )
 }
