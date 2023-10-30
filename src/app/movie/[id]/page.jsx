@@ -51,4 +51,7 @@ export default async function MoviePage({params}) {
     </div>
   );
 }
-{/*using image tag we are fetching image. same as we did in Card.jsx file.*/}
+{/*using image tag we are fetching image. same as we did in Card.jsx file.
+In this file we created one function called "getMovie". This function will fetch data using params i.e. movie or movieId from API url.
+that results will be passed to the function MoviePage which is main function of this page. in which image or other data will be fetch using movie(return result is stored here from getMovie function) constant.
+add some classes to this image display it on left side of screen for medium to large screen. adds some div's and paragraphs and span for Rating, Released date, overview and movie title.*/}

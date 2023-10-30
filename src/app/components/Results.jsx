@@ -10,3 +10,5 @@ export default function Results({results}) {
     </div>
   );
 }
+{/*In div, changed display to grid system using diff classnames and for different screen sizes.
+Here we are passing result data to card component. */}
