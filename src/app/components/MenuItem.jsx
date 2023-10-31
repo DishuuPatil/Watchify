@@ -7,7 +7,7 @@ export default function MenuItem({title, address, Icon}) {
   return (
     <div>
         {/*Put them inside Link tag, this wil go ti that webside to that Url*/}
-        <Link href={address} className="mx-4 lg:mx-6 hover:text-amber-600">
+        <Link href={address} className="mx-4 lg:mx-6 hover:text-pink-600">
                     {/*mx-4 will add some margin to x-axis, lg:mx-6 will only visible on large screen which is greater than or equal to mx-6 and hover will change color*/ 
                     /*****this address is url which will get open when we will hit title*****/}
         <Icon className="text-2xl sm:hidden mx-4"/>

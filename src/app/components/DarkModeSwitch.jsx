@@ -16,9 +16,9 @@ export default function DarkModeSwitch() {
         {mounted && 
             (currentTheme==="dark"? 
                 (
-                    <MdLightMode className="text-xl cursor-pointer hover:text-amber-500" onClick={()=>setTheme("light")}/>
+                    <MdLightMode className="text-xl cursor-pointer hover:text-pink-500" onClick={()=>setTheme("light")}/>
                 ):(
-                <HiMoon className="text-xl cursor-pointer hover:text-amber-500" onClick={()=>setTheme("dark")}/>
+                <HiMoon className="text-xl cursor-pointer hover:text-pink-500" onClick={()=>setTheme("dark")}/>
                 )
             )
         }

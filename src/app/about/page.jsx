@@ -3,7 +3,7 @@ import React from 'react'
 export default function page() {
   return (
     <div className="max-w-6xl mx-auto space-y-4 p-4">
-        <h1 className="text-2xl font-medium text-amber-600">About</h1>
+        <h1 className="text-2xl font-medium text-pink-500">About</h1>
         <p>
         Welcome to our awesome movie hub! We are a bunch of movie buffs who have teamed up to bring you a one-stop destination for all your movie cravings. Our website is your go-to place for a treasure trove of movies from across the globe. From the hottest news to the coolest trailers, we have got you covered. We update our database regularly, so you never miss out on the latest flicks.                 
         </p>                                                                                                                                                                                                 

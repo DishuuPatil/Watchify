@@ -30,7 +30,8 @@ export default async function SearchPage({params}) {
 }
  
 
-{/*This will fetch the data/results in res using params from above URL.searchTerm.
+{/*used the url to get the search query.
+This will fetch the data/results in res using params from above URL.searchTerm.
  If res is not ok. then it will throw an error as below. */}
 
 {/*we have component called results and this data will be passed to the results. */}

@@ -26,7 +26,7 @@ export default function Header() {
           <DarkModeSwitch/>
             <Link href="/">
                 <h2 className= "text-2xl">
-                  <span className="font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1">WATCHIFY</span>
+                  <span className="font-bold bg-pink-400 py-1 px-2 rounded-lg mr-1">WATCHIFY</span>
                 </h2>
                 {/* text-2xl for larger size.  font-bold for bold text, bg-amber-500 is background color py-1 is padding at Y-axis and px-2 is padding at X-axis, rounded-lg is to make curves rounded and mr-1 is for margin at right*/}
             </Link>
