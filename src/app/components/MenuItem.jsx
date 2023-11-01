@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link"
+
 
 {/*Here we will get title , address and Icon from Header.jsx and show it here*/}
 

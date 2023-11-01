@@ -1,7 +1,7 @@
 "use client";
 
-import { ThemeProvider } from 'next-themes'
-import React from 'react'
+import { ThemeProvider } from "next-themes"
+
 
 export default function Providers({children}) {
     {/* enableSystem={true} - the theme we are using on browser or selected theme this themeProvider will use that theme.

@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from "react"
 import {MdLightMode} from "react-icons/md";
 import {HiMoon} from "react-icons/hi";
 import {useTheme} from "next-themes";

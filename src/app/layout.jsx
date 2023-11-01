@@ -1,11 +1,11 @@
 
-import Head from 'next/head';
-import Providers from './Providers'
-import Header from './components/Header'
-import Navbar from './components/Navbar'
-import SearchBox from './components/SearchBox'
-import './globals.css'
-import next from 'next'
+import Head from "next/head";
+import Providers from "./Providers"
+import Header from "./components/Header"
+import Navbar from "./components/Navbar"
+import SearchBox from "./components/SearchBox"
+import "./globals.css"
+import next from "next"
 
 
 

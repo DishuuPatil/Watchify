@@ -1,9 +1,9 @@
-import React from 'react'
-import MenuItem from './MenuItem'
+
+import MenuItem from "./MenuItem"
 import {RiHomeSmileFill} from "react-icons/ri";
 import {BsInfoCircleFill} from "react-icons/bs";
-import Link from 'next/link';
-import DarkModeSwitch from './DarkModeSwitch';
+import Link from "next/link";
+import DarkModeSwitch from "./DarkModeSwitch";
 
 export default function Header() {
   return (

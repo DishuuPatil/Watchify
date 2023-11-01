@@ -2,9 +2,10 @@
 
 {/*This page will be client side, because we need to use the Use effect from react*/}
 import {useEffect} from "react"
-import React from 'react'
+
 {/* this {error,reset} will give us 2 things. It will catch the error, 
 if an error happens and we can reset by creating the button and reset the fetching*/}
+
 export default function Error({error, reset}) {
     useEffect(()=> {
         console.log(error)
