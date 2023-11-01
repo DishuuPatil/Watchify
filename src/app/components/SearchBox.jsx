@@ -1,6 +1,7 @@
 "use client";
-import React, { useState } from "react"
-import { useRouter } from 'next/navigation';
+
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function SearchBox() {
     const [search, setSearch] = useState("");
@@ -23,11 +24,15 @@ export default function SearchBox() {
         value={search}
         onChange={(e) => setSearch(e.target.value)} 
         type="text" placeholder="Search Keywords..."
-        className="w-full h-14 rounded-sm placeholder-color-gray-500 outline-none bg-transparent flex-1"/>
-        <button disabled={!search} type="submit" className="text-amber-600 disabled:text-gray-400">Search</button>
+        className="w-full h-14 rounded-sm placeholder-color-gray-500 outline-none bg-transparent flex-1"
+        />
+        <button 
+          disabled={!search} 
+          type="submit" 
+          className="text-pink-600 disabled:text-gray-400">Search</button>
         {/*Button will be disabled if there is nothing in search. */}
     </form>
-  )
+  );
 }
 
 {/*{react hooks : eg : useState is used to store data across renders.

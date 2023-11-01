@@ -1,5 +1,3 @@
-
-
 export default function page() {
   return (
     <div className="max-w-6xl mx-auto space-y-4 p-4">
@@ -15,5 +13,5 @@ export default function page() {
         Happy movie hunting!
         </p>
     </div>
-  )
+  );
 }

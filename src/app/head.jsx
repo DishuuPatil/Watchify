@@ -1,7 +1,7 @@
+{/*import React from "react"
+import Head from "next/head";*/}
 
-import Head from "next/head";
-
-export default function head() {
+export default function Head() {
   return (
     <>
       <title>Watchify</title>

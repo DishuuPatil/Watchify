@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 
 
 {/*Here we will get title , address and Icon from Header.jsx and show it here*/}
@@ -17,5 +17,5 @@ export default function MenuItem({title, address, Icon}) {
                     {/*this will make title as link(which is passed from Header as "HOME")*/}
         </Link>
     </div>
-  )
+  );
 }
