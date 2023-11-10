@@ -1,12 +1,12 @@
 "use client";
-import Link from 'next/link'
-import React from 'react'
-//import { useSearchParams } from 'next/navigation'   //nextjs
-import {useSearchParams} from "next/navigation"
+
+import Link from "next/link";
+
+import {useSearchParams} from "next/navigation";
 
 export default function NavbarItem({title , param}) 
 {   
-    const searchParams = useSearchParams(); // we cannot use this component to server side to need to add this client at the top, "use client"
+    const searchParams = useSearchParams(); {/*we cannot use this component to server side to need to add this client at the top, "use client"*/}
     const genre = searchParams.get("genre");
     return (
     <div>
@@ -18,7 +18,8 @@ export default function NavbarItem({title , param})
             {title}
         </Link>
     </div>
-  )
+  );
 }
+
 {/*for dynamic styling we need to add `(backtick) while defining class names
 and inside the dynamic section we added dollar sign and curly braces and added the conditions like if genre=== param(topTrending / topRated)*/}

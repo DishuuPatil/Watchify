@@ -1,10 +1,11 @@
-import Head from './Head'
-import Providers from './Providers'
-import Header from './components/Header'
-import Navbar from './components/Navbar'
-import SearchBox from './components/SearchBox'
-import './globals.css'
-//import { Inter } from 'next/font/google'
+import Providers from "./Providers";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import SearchBox from "./components/SearchBox";
+import "./globals.css";
+import next from "next"
+import head from "next/head"
+import react from "react"
 
 
 
@@ -12,9 +13,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        
-        <Head />
-      </head>
+        <title>Watchify</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta name="description" content="This is movie watching website." />
+        <link rel="icon" href="/favicon2.ico" />
+  </head>
 
       <body>
         <Providers>

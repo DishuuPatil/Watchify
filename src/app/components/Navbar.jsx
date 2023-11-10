@@ -1,5 +1,5 @@
-import React from 'react'
-import NavbarItem from './NavbarItem'
+
+import NavbarItem from "./NavbarItem";
 
 export default function Navbar() {
   return (
@@ -9,5 +9,5 @@ export default function Navbar() {
         <NavbarItem title="Top Rated" param="fetchTopRated" />
 
     </div>
-  )
+  );
 }
